@@ -7,7 +7,7 @@ const Footer = () => {
         <p>react-calculator</p>
         <p>Created By Triet Lieu</p>
         <a 
-          href="https://github.com/username/repo-name" 
+          href="https://github.com/ArceusX/react-calculator" 
           target="_blank" 
           rel="noopener noreferrer">Github Repo</a>
       </div>
