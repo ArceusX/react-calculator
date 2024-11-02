@@ -1,18 +1,22 @@
 import React from 'react';
 
-const Footer = () => {
-  return (
-    <footer>
-      <div>
-        <p>react-calculator</p>
-        <p>Created By Triet Lieu</p>
-        <a 
-          href="https://github.com/ArceusX/react-calculator" 
-          target="_blank" 
-          rel="noopener noreferrer">Github Repo</a>
-      </div>
-    </footer>
-  );
-};
+const Footer = ({ appName, author, link }) => {
+    return (
+      <footer>
+        <div>
+          {appName && <p>{appName}</p>}
+          {author && <p>Created By {author}</p>}
+          {link && (
+            <p><a 
+              href={link} 
+              target="_blank" 
+              rel="noopener noreferrer">
+              Github Repo
+            </a></p>
+          )}
+        </div>
+      </footer>
+    );
+  };
 
 export default Footer;

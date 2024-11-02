@@ -164,7 +164,7 @@ function App() {
         <button className="span-two"
           onClick={() => dispatch({ action: 'evaluate' })}>=</button>
       </div>
-      <Footer />
+      <Footer appName="react-calculator" author="Triet Lieu" link="https://github.com/ArceusX/react-calculator" />
     </div>
   )
 }
